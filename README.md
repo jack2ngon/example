@@ -1,1 +1,1 @@
-# example - jenkins 2.4
+# example - jenkins 2.5
