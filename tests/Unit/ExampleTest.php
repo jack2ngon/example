@@ -15,4 +15,10 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function test_func_a()
+    {
+        $result = (1 == 2);
+        $this->assertTrue($result);
+    }
 }
