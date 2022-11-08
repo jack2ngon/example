@@ -3,12 +3,13 @@ pipeline {
     stages {
         stage('building') {
             steps {
-                echo 'building ...' 
+                sh 'cp .env.staging .env'
+                sh 'composer install' 
             }
         }
         stage('testing') {
             steps {
-                echo 'testing ...' 
+                sh 'php artisan test' 
             }
         }
         stage('deploying') {
