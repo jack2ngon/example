@@ -4,8 +4,7 @@ pipeline {
         stage('building') {
             steps {
                 sh 'cp .env.staging .env'
-                sh 'composer install'
-                sh 'chmod -Rf 777 storage'
+                sh 'composer install'                
             }
         }
         stage('testing') {
