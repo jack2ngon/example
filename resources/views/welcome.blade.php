@@ -41,7 +41,7 @@
                     <p>#2: hot-fix 2.5</p>
                     <p>#3: letro-113.1</p>
 
-                    <p>#123: letro-124.1</p>
+                    <p>#123: letro-124.21</p>
                     <p>Man lua ga</p>
                 </div>
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
